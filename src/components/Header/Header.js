@@ -13,17 +13,16 @@ const Header = () => {
         <li><a href='#my-skills'>My Skills</a></li>
       </ul>
     </div>
-    <a href='#home' className="btn btn-ghost normal-case text-xl">Maruf Mozumder</a>
+    <a href='#home' className="btn btn-ghost normal-case text-2xl">Maruf Mozumder</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li><a href='#my-projects'>My Projects</a></li>
-
-      <li><a href='#my-skills'>My Skills</a></li>
+    <li><a className='text-2xl' href='#my-projects'>My Projects</a></li>
+      <li><a className='text-2xl' href='#my-skills'>My Skills</a></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Contact Me Now</a>
+  <div className="navbar-end text-3xl">
+    <a href='#contact-me' className="btn">Contact Me Now</a>
   </div>
 </div>
     );
