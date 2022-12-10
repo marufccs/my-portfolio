@@ -3,7 +3,7 @@ import maruf from '../../Pictures/Maruf.png'
 import './Banner.css'
 const Banner = () => {
     return (
-        <div className='lg:flex justify-between'>
+        <div id='banner' className='lg:flex justify-between'>
             <div>
             {/* <section >
                 <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>

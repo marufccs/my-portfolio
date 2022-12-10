@@ -3,7 +3,7 @@ import React from 'react';
 const MyProject = ({myProject}) => {
     const {name, description, img, alt, link} = myProject;
     return (
-        <div>
+        <div id='my-projects'>
             <div className="card card-compact w-96 bg-base-100 shadow-xl">
   <figure><img src={img} alt={alt} /></figure>
   <div className="card-body">
