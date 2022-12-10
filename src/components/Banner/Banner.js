@@ -5,10 +5,10 @@ const Banner = () => {
     return (
         <div className='lg:flex justify-between'>
             <div>
-            <section >
+            {/* <section >
                 <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
                 <span></span><span></span>
-            </section>
+            </section> */}
             </div>
           <div>
             <div className='sm:text-3xl lg:text-6xl  font-extrabold  lg:mt-36 starting-lines'>
