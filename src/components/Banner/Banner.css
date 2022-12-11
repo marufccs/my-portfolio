@@ -2,6 +2,12 @@
 .starting-lines {
     font-size: 24px;
     width: 100%;
+    margin-left: 24px;
+}
+
+.resume {
+    margin-left: 18px;
+    margin-top: 12px;
 }
 
 .image{

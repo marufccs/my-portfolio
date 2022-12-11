@@ -13,7 +13,7 @@ const Header = () => {
         <li><a href='#my-skills'>My Skills</a></li>
       </ul>
     </div>
-    <a href='#home' className="btn btn-ghost normal-case text-2xl">Maruf Mozumder</a>
+    <a href='#home' className="btn btn-ghost normal-case text-2xl hidden lg:flex lg:ml-8">Maruf Mozumder</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

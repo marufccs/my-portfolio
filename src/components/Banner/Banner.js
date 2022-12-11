@@ -15,11 +15,11 @@ const Banner = () => {
             </section> */}
             </div>
           <div>
-            <div className='sm:text-3xl lg:text-6xl  font-extrabold  lg:mt-36 starting-lines'>
+            <div className='sm:text-3xl lg:text-6xl lg:ml-12  font-extrabold  lg:mt-36 starting-lines'>
 <h1 className='animate__animated animate__backInLeft'>Hello There</h1>
 <h1 className='animate__animated animate__backInLeft animate__delay-1s w-full'>I'm Maruf Mozumder</h1>
 <h1 className='animate__animated animate__backInLeft animate__delay-2s'>I'm a MERN Stack Developer</h1>
-<div className='mt-4 starting-lines'>
+<div className='mt-4'>
   <h4 className='text-2xl'>Find Me On: </h4>
   <div className='text-2xl mt-2 mb-0 flex gap-6'>
     <a href='https://www.linkedin.com/in/maruf-mozumder7/' target='_blank'>
@@ -32,7 +32,7 @@ const Banner = () => {
 <SiGmail></SiGmail>
 </a>
   </div>
-  <div className=''>
+  <div className='resume'>
   <Resume/>
 </div>
 </div>

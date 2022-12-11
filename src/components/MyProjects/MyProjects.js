@@ -31,7 +31,7 @@ const MyProjects = () => {
     ]
 
     return (
-        <div id='my-projects' className='mt-12'>
+        <div id='my-projects' className='mt-12 lg:ml-12'>
             <h1 className='text-center project-text text-6xl'> My Projects</h1>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6 '>
             {
