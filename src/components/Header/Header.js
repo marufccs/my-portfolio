@@ -14,6 +14,7 @@ const Header = () => {
         <li><Link className='text-2xl' to='/'>Home</Link></li>
         <li><HashLink className='text-2xl' smooth to='/#my-projects'>My Projects</HashLink></li>
         <li><HashLink className='text-2xl' smooth to='/#my-skills'>My Skills</HashLink></li>
+        <li><Link className='text-2xl'  to='/blogs'>My Blogs</Link></li>
       </ul>
     </div>
     <Link to='/' className="btn btn-ghost normal-case text-2xl hidden lg:flex lg:ml-8">Maruf Mozumder</Link>
@@ -22,6 +23,7 @@ const Header = () => {
     <ul className="menu menu-horizontal px-1">
     <li><HashLink className='text-2xl' smooth to='/#my-projects'>My Projects</HashLink></li>
       <li><HashLink className='text-2xl' smooth to='/#my-skills'>My Skills</HashLink></li>
+      <li><Link className='text-2xl'  to='/blogs'>My Blogs</Link></li>
     </ul>
   </div>
   <div className="navbar-end text-3xl">

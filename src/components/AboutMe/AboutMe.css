@@ -1,0 +1,7 @@
+@media only screen and (min-width:300px) and (max-width: 800px){
+   .about-me{
+    margin-left: 34px;
+        margin-right: 34px;
+        font-size: 20px
+   }
+}
