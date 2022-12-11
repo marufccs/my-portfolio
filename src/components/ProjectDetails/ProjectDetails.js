@@ -4,6 +4,9 @@ import './ProjectDetails.css'
 
 const ProjectDetails = () => {
 
+    
+
+
     return (
         <div className='text-center'>
             <div className='text-6xl'>
