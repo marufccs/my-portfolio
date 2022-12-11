@@ -1,0 +1,53 @@
+[
+    {
+        "id" : "01",
+        "projectTitle" : "Reselling Bay",
+        "websiteLink" : "https://reselling-bay.web.app/",
+        "githubClient" : "https://github.com/marufccs/reselling-bay-client",
+        "githubServer" : "https://github.com/marufccs/reselling-bay-original-server",
+        "mainImg" : "https://i.ibb.co/3d2SDtw/first-Project.png",
+        "description" : "In this reselling website, you can log in both as buyer and seller. If you're a seller, you can add books for sale. And if you're a buyer, you can buy books. Some of the features are:",
+        "feature1" : "When you log in, a dashboard appears. If you're a seller, you can add your product from the dashboard. You have to provide all the details. Then the product will be added in the booklists." ,
+        "firstImg" : "https://i.ibb.co/tzs8ZN4/firstprojectfirstpic.png",
+        "feature2" : "If you're a buyer, from the booklist, you can either put your desired book on your wishlist or you can book the book. Then from the dashboard you can move to the payment system and you can pay by any card you want.",
+        "secondImg" : "https://i.ibb.co/4K9j8dw/first-Project-Second.png",
+        "feature3" : "After doing the payment, you'll receive your transactional id, and from the book's status will change in your dashboard.", 
+        "thirdImg" : "https://i.ibb.co/cr182sj/first-Project-Third.png",
+        "feature4" : "If you're a seller, you can advertise your products also. You just have to click in the 'advertise' button below your product. Then the product will arrive in the homepage.",
+        "feature5" : "From the dashboard you can manage your products as well. You can either update them or delete them."
+    },
+    {
+        "id" : "02",
+        "projectTitle" : "Capture The World",
+        "websiteLink" : "https://capture-the-world-dd22c.web.app/",
+        "githubClient" : "https://github.com/marufccs/capture-the-world-client",
+        "githubServer" : "https://github.com/marufccs/capture-the-world-server",
+        "mainImg" : "https://i.ibb.co/C0Wr74z/second-Project.png",
+        "description" : "This is a Photographic Service Provider website. You can get any photographic service from here. Some of the features are:",
+        "feature1" : "In the details of the service page, you can get the detailed information of the website. You'll see the reviews of other people here. In order to leave your own review, you must log in first." ,
+        "firstImg" : "https://i.ibb.co/kq9JjZH/second-Project-First.png",
+        "feature2" : "After logging in, you can access to this form of leaving reviews. After submitting the form, your review will be added under the product.",
+        "secondImg" : "https://i.ibb.co/X4W7vtD/second-Project-Second.png",
+        "feature3" : "After logging in, in the navbar you can see the option 'My Reviews'. There you can either update your review or you can delete it. ", 
+        "thirdImg" : "https://i.ibb.co/p04yvtJ/second-Project-Third.png",
+        "feature4" : "In the add service page from the navbar, you can add your own service too.",
+        "feature5" : "In the homepage, you can subscribe to their newsletter also."
+    },
+    {
+        "id" : "03",
+        "projectTitle" : "My Lingua",
+        "websiteLink" : "https://my-lingua.firebaseapp.com/",
+        "githubClient" : "https://github.com/marufccs/my-lingua",
+        "githubServer" : "https://github.com/marufccs/my-lingua-client",
+        "mainImg" : "https://i.ibb.co/3Ny2b5x/third-Project.png",
+        "description" : "This is a language learning course website. One of my first very projects. So the features are not that good. Some of the features are:",
+        "feature1" : "You can explore all the courses. You can learn about the duration and the price." ,
+        "firstImg" : "https://i.ibb.co/cLh9V4g/third-Project-First.png",
+        "feature2" : "If you click the read more button, you can explore all the details of the course in a new page.",
+        "secondImg" : "https://i.ibb.co/qr71tRw/third-Project-Second.png",
+        "feature3" : "After logging in, you can officially get the premium access of the course.", 
+        "thirdImg" : "https://i.ibb.co/mRVFdCj/third-Project-Third.png",
+        "feature4" : "If you log in with google, in the navbar you can see your picture. ",
+        "feature5" : "You can also logout by clicking the logout button from the navbar."
+    }
+]

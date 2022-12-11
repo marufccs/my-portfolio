@@ -1,6 +1,7 @@
 import React from 'react';
 import MySkill from './MySkill';
 
+
 const MySkills = () => {
     const mySkillsData = [
         {
@@ -25,7 +26,7 @@ const MySkills = () => {
     return (
         <div id='my-skills' className='mt-12 lg:ml-12'>
              <h1 className='text-center project-text text-6xl'> My Skills</h1>
-             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6 '>
+             <div  className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6 '>
                 {
                     mySkillsData.map(mySkill => <MySkill key={mySkill.id} mySkill={mySkill}></MySkill>)
                 }

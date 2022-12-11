@@ -1,24 +1,13 @@
 
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Banner from './components/Banner/Banner';
-import ContactMe from './components/ContactMe/ContactMe';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import MyProjects from './components/MyProjects/MyProjects';
-import MySkills from './components/MySkills/MySkills';
+import router from './router/router'
 
-function App() {
+function App({children}) {
   return (
-    <div id='home'>
-      <Header/>
-    <div className="mx-auto">
-     <Banner/>
-     <MyProjects/>
-     <MySkills/>
-     <ContactMe/>
-    </div>
-    <Footer/>
-    </div>
+    <RouterProvider router={router}>
+      {children}
+    </RouterProvider>
   );
 }
 
